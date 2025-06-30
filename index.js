@@ -10,7 +10,7 @@ const { TRELLO_KEY, TRELLO_TOKEN } = process.env;
 
 // Mission and Logistics List IDs
 const MISSION_LISTS = [
-  '6663bbba2e76cb0cdd36d43f', // Today
+  '685dccbe5c04f76e1e68c767', // Today
   '6663bbba2e76cb0cdd36d43e', // Week
 ];
 
