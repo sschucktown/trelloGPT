@@ -15,6 +15,7 @@ const MISSION_LISTS = [
 ];
 
 const LOGISTICS_LISTS = [
+  '685ec6471361735e21a59d46',
   '6663b9ce009f52cbdf0aa940', // Next 2 Weeks
   '6663b9ce009f52cbdf0aa945', // Events & Travel
   '6663b9ce009f52cbdf0aa942', // Recurring Tasks
