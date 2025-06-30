@@ -69,6 +69,8 @@ app.post('/trello/cards', async (req, res) => {
 app.get('/advisor/should_schedule_on', async (req, res) => {
   const { date } = req.query;
 
+  console.log(`Advisor route hit with date: ${date}`);
+
   if (!date) return res.status(400).json({ error: 'Missing date param (YYYY-MM-DD)' });
 
   const listIds = [...MISSION_LISTS, ...LOGISTICS_LISTS];
